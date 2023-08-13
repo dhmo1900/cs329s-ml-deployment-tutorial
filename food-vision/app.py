@@ -9,7 +9,7 @@ from utils import load_and_prep_image, classes_and_models, update_logger, predic
 
 # Setup environment credentials (you'll need to change these)
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "daniels-dl-playground-4edbcb2e6e37.json" # change for your GCP key
-PROJECT = "daniels-dl-playground" # change for your GCP project
+PROJECT = "My Project 10000" # change for your GCP project
 REGION = "us-central1" # change for your GCP region (where your model is hosted)
 
 ### Streamlit code (works as a straigtht-forward script) ###
